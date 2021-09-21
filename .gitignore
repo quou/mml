@@ -24,3 +24,7 @@ mmllua/lua54/*.filters
 sample/*.vcxproj
 sample/*.user
 sample/*.filters
+
+*.swp
+*.un
+*.un~
