@@ -21,9 +21,9 @@ int main() {
 
 	window = mml_new_window("MML Sample", 640, 480, 1, MML_WINDOW_RESIZABLE | MML_WINDOW_STRETCH);
 
-	logo = mml_load_bitmap("mml.bmp");
+	logo = mml_load_bitmap("mml.png");
 
-	font = mml_load_font("src/jetbrainsmono.ttf", 14.0f);
+	font = mml_load_font("res/jetbrainsmono.ttf", 14.0f);
 
 	running = 1;
 	while (running) {

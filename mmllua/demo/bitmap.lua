@@ -9,7 +9,7 @@ function main()
 	local fps_timer = 0
 	local fps_string = "fps: 0"
 
-	local logo = Bitmap:load("mml.bmp")
+	local logo = Bitmap:load("mml.png")
 	local font = Font:load("res/jetbrainsmono.ttf", 14);
 
 	local attribs = window:query()
